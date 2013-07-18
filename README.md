@@ -1,6 +1,6 @@
 # DaveDevelopment/StackRickrollRoulette
 
-A (http://stackphp.org)[Stack] middleware for randomly rickrolling clients.
+A [Stack](http://stackphp.com) middleware for randomly rickrolling clients.
 
 ## Example
 
@@ -14,7 +14,7 @@ $app->get('/', function () {
 });
 
 $stack = (new Stack\Builder())
-    ->push('DaveDevelopment\StackRickrollRoulette');
+    ->push('DaveDevelopment\StackRickrollRoulette', ['url' => 'http://stackphp.com']);
 
 $app = $stack->resolve($app);
 
