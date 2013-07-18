@@ -1,0 +1,29 @@
+{
+    "name": "davedevelopment/stack-rickroll-roulette",
+    "description": "A stack middleware random rickrolling",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dave Marshall",
+            "email": "dave.marshall@atstsolutions.co.uk"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/http-foundation": "~2.1",
+        "symfony/http-kernel": "~2.1"
+    },
+
+    "require-dev": {
+        "silex/silex": "~1.0@dev"
+    },
+
+    "autoload": {
+        "psr-0": { "DaveDevelopment": "src" }
+    },
+
+    "extra": {
+        "branch-alias": { "dev-master": "1.0-dev" }
+    }
+}
