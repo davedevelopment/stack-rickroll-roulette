@@ -1,6 +1,6 @@
 {
     "name": "davedevelopment/stack-rickroll-roulette",
-    "description": "A stack middleware random rickrolling",
+    "description": "A stack middleware for random rickrolling",
     "license": "MIT",
     "authors": [
         {
