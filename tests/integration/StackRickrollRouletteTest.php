@@ -8,7 +8,7 @@ use Symfony\Component\HttpKernel\Client;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
-class StackHalZoomTest extends \PHPUnit_Framework_TestCase
+class StackRickrollRouletteTest extends \PHPUnit_Framework_TestCase
 {
     /** @test */
     public function weGetRickrolledEventually()
